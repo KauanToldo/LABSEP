@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/logoicon.ico">
+    <script src="script/script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>LABSEP</title>
+</head>
+<body>
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal-content">
+                <i class="fa-solid fa-xmark close-modal" onclick="modal_close()"></i>
+                <img src="img/prev-artigo-criptografia.svg" class="prev-artigo" alt="">
+                <div class="modal-buttons">
+                    <a href="https://clium.org/index.php/edicoes/article/view/1064" target="_blank"><button>Acessar</button></a>
+                    <a href="https://clium.org/index.php/edicoes/article/view/1064/781" target="_blank"><button>Download</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar-menu" class="closed">
+        <i class="fa-solid fa-xmark close-sidebar"></i>
+        <div class="sidebar-items">
+            <div class="sidebar-pages">
+                <div class="item sidebar-projetos">
+                    <a class="link" href="#projetos">Projetos</a>
+                    <i class="fa-solid fa-clipboard-list"></i>
+                </div>
+                <div class="item sidebar-publicações">
+                    <a class="link" href="#publicações">Publicações</a>
+                    <i class="fa-solid fa-book"></i>
+                </div>
+                <div class="item sidebar-equipe">
+                    <a class="link" href="#equipe">Equipe</a>
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="item sidebar-contato">
+                    <a class="link" href="#footer">Contato</a>
+                    <i class="fa-solid fa-message"></i>
+                </div>
+            </div>
+            <img src="img/logo.svg" class="logo" alt="">
+        </div>
+    </div>
+    <header class="">
+        <img class="logo" src="img/logo.svg" alt="">
+        <i class="fa-solid fa-bars open-sidebar"></i>
+        <nav>
+            <a href="#projetos"><li>Projetos</li></a>
+            <a href="#publicações"><li>Publicações</li></a>
+            <a href="#equipe"><li>Equipe</li></a>
+            <a href="#footer"><li>Contato</li></a>
+        </nav>
+    </header>
+    <div id="home">
+        <h1 id="title">Laboratório de Segurança<br>e Privacidade - Labsep</h1>
+    </div>
+    <main>
+        <section class="conteudo" id="intro">
+            <img src="img/img-intro.svg" alt="">
+            <p class="paragraph"> Considerando a crescente demanda de dados no mundo tecnológico atual, é necessário que haja uma maior proteção dos mesmo, sendo assim, o nosso objetivo é oferecer maior segurança a dados pessoais, principalmente aqueles relacionados a saúde... EXPLICAR O NOSSO OBJETIVO EM FORMA DE TEXTO, SENDO UMA INTROFUÇÃO</p>
+        </section>
+        <section id="projetos" class="conteudo">
+            <h2 class="title" id="projeto-title">PROJETOS</h2>
+            <h3 class="subtitle">Projetos de Pesquisa</h3>
+            <div class="project" id="apd">
+                <div class="carroussel">
+                    <div class="swiper carousel">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="img/carrossel1.jpg" alt="" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/carrossel2.jpg" alt="" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/carrossel3.jpg" alt="" />
+                          </div>
+                        </div>
+                        <button type="button" class="swiper-button-next"></button>
+                        <button type="button" class="swiper-button-prev"></button>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+                <div class="info-project">
+                    <p>Arquitetura para a Promoção da Privacidade e Interoperabilidade de Dados em Processos de Comunicação de Registros Médico-Hospitalares</p>
+                    <a href="projeto1.html"><button>Saiba mais!</button></a>
+                </div>
+            </div>
+            <div class="project" id="lgpd">
+                <div class="carroussel">
+                    <div class="swiper carousel">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="img/carrossel1.jpg" alt="" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/carrossel2.jpg" alt="" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/carrossel3.jpg" alt="" />
+                          </div>
+                        </div>
+                        <button type="button" class="swiper-button-next"></button>
+                        <button type="button" class="swiper-button-prev"></button>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+                <div class="info-project">
+                    <p>Uma Proposta de Arquitetura de API para Adequação à Lei Geral de Proteção de Dados</p>
+                    <a href="projeto2.html"><button>Saiba mais!</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="conteudo" id="publicações">
+            <h2 class="title">PUBLICAÇÕES</h2>
+            <div id="publicacoes">
+                <div id="artigos">
+                    <h3 class="subtitle">Artigos</h3>
+                    <div class="artigo" id="criptografia" onclick="open_modal()">
+                        <p class="data">17/03/2023</p>
+                        <p class="artigo-title">Proteção de dados pessoais na saúde utilizando criptografia simétrica: um estudo comparativo entre diferentes algoritmos</p>
+                    </div>
+                </div>
+                <div id="premios-content">
+                    <div id="premios-header">
+                        <h3>PRÊMIOS</h3>
+                        <i class="icon fa-solid fa-trophy"></i>
+                    </div>
+                    <div id="premios">
+                        <div class="premio">
+                            <i class="icon fa-solid fa-medal"></i>
+                            <p>Trabalho Destaque - FECITAC 2022 IFC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="equipe">
+            <h3 class="title">EQUIPE</h3>
+            <div id="profs">
+                <h3 class="subtitle">Professores</h3>
+                <div>
+                    <div>
+                        <div class="profile">
+                            <img class="img-profile" src="img/equipe/heitor.svg" alt="">
+                            <p>Heitor Scalco Neto</p>
+                        </div>
+                        <div class="profile">
+                            <img class="img-profile" src="" alt="">
+                            <p>Tiago Mazzutti</p>
+                        </div>
+                        <div class="profile">
+                            <img class="img-profile" src="img/equipe/caroline.png" alt="">
+                            <p>Caroline Guterres</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="alunos">
+                <h3 class="subtitle">Alunos</h3>
+                <div>
+                    <div class="profile">
+                        <img class="img-profile" src="img/equipe/yasmin.svg" alt="">
+                        <p>Yasmin Zerbielli</p>
+                    </div>
+                    <div class="profile">
+                        <img class="img-profile" src="img/equipe/inae.svg" alt="">
+                        <p>Inaê Marchese</p>
+                    </div>
+                    <div class="profile">
+                        <img class="img-profile" src="img/equipe/maira.svg" alt="">
+                        <p>Maíra Herpich</p>
+                    </div>
+                    <div class="profile">
+                        <img class="img-profile" src="img/equipe/gustavo.svg" alt="">
+                        <p>Gustavo Peretti</p>
+                    </div>
+                    <div class="profile">
+                        <img class="img-profile" src="img/equipe/kauan.svg" alt="">
+                        <p>Kauan Toldo</p>
+                    </div>
+                    <div class="profile">
+                        <img class="img-profile" src="" alt="">
+                        <p>Cristian XXXXXXXXX</p>
+                    </div>
+                    <div class="profile">
+                        <img class="img-profile" src="" alt="">
+                        <p>Vinicius XXXXXXXXX</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <a id="button-top" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+        <div id="footer-conteudo">
+            <div id="informacoes">
+                <div id="contato">
+                    <h3 class="subtitle-footer">CONTATO</h3>
+                    <div>
+                        <i class="fa-solid fa-envelopes-bulk""></i>
+                        <a href="">labsep@ifc.edu.br</a>
+                    </div>
+                </div>
+                <div id="instituicao">
+                    <h3 class="subtitle-footer">INSTITUIÇÃO</h3>
+                    <div>
+                        <img src="img/logo ifc.svg" alt="">
+                        <a href="https://concordia.ifc.edu.br/">Instituto Federal Catarinense - Campus Concórdia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="line"></div>
+        <div id="lab">
+            <h3>Laboratório de Segurança de Privacidade</h3>
+            <img class="logo" src="img/logo.svg" alt="">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
